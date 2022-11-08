@@ -14,6 +14,15 @@ let b = 12;
 
 console.log(a**b); // 4096
 
+
+//using while loop 
+let x = 2;
+let y = 1;
+while (y<12) {
+   y++;
+}
+console.log(x = x**y); // 4096
+
 //Task 3
 
 let triangle = '*';
@@ -22,4 +31,8 @@ while (triangle.length < 8) {
   triangle += '*';
   console.log(triangle); 
 }
+
+
+
+
 
